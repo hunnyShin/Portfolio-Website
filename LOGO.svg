@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="175px" viewBox="0 0 150 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(0.000000, 25.000000)">
+            <g id="Group" transform="translate(0.000000, -25.000000)">
+                <circle id="Oval" stroke="#000000" stroke-width="7" cx="75" cy="100" r="71.5"></circle>
+                <text id="J" font-family="Noteworthy-Bold, Noteworthy" font-size="118" font-weight="bold" letter-spacing="-2.74831206" fill="#000000">
+                    <tspan x="35.532906" y="151">J</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
