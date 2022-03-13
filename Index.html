@@ -15,11 +15,11 @@
 <body>
   <header>
     <nav>
-      <div class="top navigation">
+      <div class="container">
         <a href="index.html">
           <img src="img/logo.svg" alt="main logo">
         </a>
-        <ul>
+        <ul class="navigation">
           <li><a class="top-menu" href="index.html">Work</a></li>
           <li><a class="top-menu" href="about.html">About</a></li>
           <li><a class="top-menu" href="#contact">Contact</a></li>
@@ -29,8 +29,8 @@
   </header>
 
   <main>
-    <div class="myself section">
-      <div class="myself container">
+    <div id="hero">
+      <div class="container">
         <h1>Hello. My name is Julie. <span>I am a UI designer.</span></h1>
         <p>
           I am a good listener, and I love collaborating with people and enjoy accepting new things. If I write three words that indicate me, it can be “patient,” “effort,” and “faithful.”
@@ -38,10 +38,10 @@
       </div>
     </div>
 
-    <div class="whole section">
-      <div class="big section">
+    <div id="work">
+      <div class="container">
         <h3>Recent work</h3>
-        <div class="section one">
+        <div class="row">
           <div class="jewelry photo section">
             <picture>
               <source srcset="img/elejewel/elejewel@1.png" media="(max-width:767px)">
@@ -60,14 +60,14 @@
           </div>
         </div>
 
-        <div class="section two">
-          <div class="recipe photo section">
+        <div id="work">
+          <div class="korean-rb photo section">
             <picture>
               <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
               <img src="http://via.placeholder.com/1200x800" alt="korean recipe app">
             </picture>
           </div>
-          <div class="recipe section">
+          <div class="row">
             <h3>Korean Recips & Bar - Food Recipe App</h3>
             <p>
               write here
@@ -84,12 +84,12 @@
 
   <!-- For the footer -->
   <footer id="contact">
-    <div class="big section">
+    <div class="container">
       <h2>Get in Touch</h2>
       <p>
         Do you like my work and want to discuss opportunities? Please get in touch.
       </p>
-      <div class="email section">
+      <div class="row">
         <a href="mailto:hyunhee26@gmail.com" class="button contact">Send me an email</a>
       </div>
       <div class="sns section">

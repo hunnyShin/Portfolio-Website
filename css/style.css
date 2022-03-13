@@ -5,8 +5,8 @@ header {
   margin: 0 auto;
   border-bottom: 3px solid #4a4a4a;
 }
-body {
 
+body {
   background-color: ivory;
   font-family: 'PT-sans', sans-serif;
   font-size: 16px;
@@ -14,9 +14,11 @@ body {
   line-height: 1.6;
   color: #000000
 }
-*{
+
+* {
   box-sizing: border-box;
 }
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -69,17 +71,33 @@ a:active {
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
 }
+
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
 }
+
 .button.contact {
   background-color: transparent;
   color: #ff7f50;
   text-transform: uppercase;
   border: 2px solid #ff7f50;
 }
+
 .button.contact:hover {
   background-color: #ff7f50;
   color: #ffffff;
+}
+
+/* Layout Styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /*25px top and bottom, 0 legt and right */
+}
+#work .row {
+  padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
 }
