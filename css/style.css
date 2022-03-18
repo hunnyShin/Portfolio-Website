@@ -66,14 +66,19 @@ a:active {
   margin-top: 0;
 }
 
+main {
+  padding-top: 133px;
+}
 .button {
   display: inline-block;
   background-color: #ff7f50;
-  color: #ffffff;
+  color: #white;
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
+  transition-duration: 0.2s;
   transition: 0.2s opacity;
 }
 
@@ -159,12 +164,12 @@ nav a:visited {
     padding: 20px 0 13px;
   }
 
-  .navigation {
+  .nevigation {
     width: auto;
-    position: absolute;
+    position: fixed;
     right: 3rem;
     margin: 20px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   #work .container {
@@ -188,6 +193,11 @@ nav a:visited {
     clear: both;
     display: table;
   }
+  @keygrames color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -196,11 +206,29 @@ nav a:visited {
     padding: 20px 0 13px;
   }
 
+  }
   #work .container {
     text-align: left;
   }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
