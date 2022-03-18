@@ -131,11 +131,13 @@ a:active {
 .logo {
   max-width: 100px;
 }
+
 header {
   background-color: #ffe4c4;
   text-align: center;
   padding: 10px 0;
 }
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -160,7 +162,6 @@ nav ul li a:visited {
 }
 
 #hero h1 {
-
   margin: 0;
   padding: 0.67em 0;
   text-align: center;
@@ -222,11 +223,12 @@ main {
     text-align: unset;
     padding: 20px 0 13px;
   }
-nav {
-  width: auto;
-  float: right;
-  margin-top: 4px;
-}
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
 
   #hero span {
     display: block;
@@ -234,10 +236,6 @@ nav {
 
   .col-md-6 {
     width: 50%;
-  }
-  [class*="col-"] {
-    float: left;
-    padding: 20px;
   }
 
   #work .container {
@@ -248,12 +246,17 @@ nav {
     text-align: center;
   }
 
-  .row: : after {
+  [class*="col-"] {
+    float: left;
+    padding: 20px;
+  }
+
+  .row:: after {
     content: "";
     clear: both;
     display: table;
   }
-
+}
   @media only screen and (min-width: 1024px) {
     header {
       text-align: unset;
