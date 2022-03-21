@@ -1,10 +1,5 @@
-header {
-  position: relative;
-  background-color: #ff44c4;
-  text-align: center;
-  padding: 10px 5px 15px 5px;
-  margin: 10px;
-  border-bottom: 3px solid #4a4a4a;
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -44,38 +39,34 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #ff7f50;
+}
+
 a:hover,
 a:focus {
   color: #cc6540;
   text-decoration: underline;
 }
 
-a:visited {
-  color: #ff7f50;
-}
-
 a:active {
   color: #994c30;
-}
-
-.navigation {
-  width: auto;
-  position: fixed;
-  right: 3rem;
-  margin: 20px;
-  font-size: 18px;
 }
 
 .button {
   display: inline-block;
   background-color: #ff7f50;
-  color: #white;
+  color: #ffffff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
   transition-duration: 0.2s;
   transition: 0.2s opacity;
+}
+
+.button:visited {
+  color: #ffffff;
 }
 
 .button:hover {
@@ -96,21 +87,9 @@ a:active {
   color: #ffffff;
 }
 
-.top-menu {
-  margin: 0 auto;
-  position: relative;
-  float: right;
-  width: 1200px;
-  width: 80%;
-}
-
 .container {
   max-width: 1200px;
   padding: 0 15px;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 /* Layout Styling */
@@ -124,34 +103,52 @@ a:active {
   border-bottom: 1px solid #4a4a4a;
 }
 
-/*#contect {
-  width: 100%;
-  display: none;
-}*/
 .logo {
-  max-width: 100px;
+  max-width: 70px;
 }
 
 header {
   background-color: #ffe4c4;
   text-align: center;
   padding: 10px 0;
+  position: fixed;
+  border-bottom: 3px solid #4a4a4a;
+  width: 100%
+}
+
+nav {
+  margin-top: 1em;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav ul li {
   display: inline-block;
 }
 
-nav ul li a:visited {
+nav a {
   padding: 0 15px;
-  text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
+  text-transform: uppercase;
+}
+
+nav a:visited {
+  color: #4a4a4a;
+}
+
+nav a:hover, nav a:focus {
+  color: #4a4a4a;
+  text-transform: uppercase;
+}
+
+nav a:active {
+  color: orange;
+  text-transform: uppercase;
 }
 
 #hero {
@@ -167,8 +164,30 @@ nav ul li a:visited {
   text-align: center;
 }
 
+#hero h1 span {
+  display: block;
+  font-size: 60%;
+  margin-top: 1em;
+}
+
 main {
-  padding-top: 133px;
+  padding-top: 131px;
+}
+
+footer {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.social svg {
+  height: 40px;
+  width: auto;
 }
 
 @keyframes color-change {
@@ -251,22 +270,31 @@ main {
     padding: 20px;
   }
 
+  .nevigation {
+    margin: 0 auto;
+    position: relative;
+    float: right;
+    width: 1200px;
+    width: 80%;
+  }
+
   .row:: after {
     content: "";
     clear: both;
     display: table;
   }
 }
-  @media only screen and (min-width: 1024px) {
-    header {
-      text-align: unset;
-      padding: 20px 0 13px;
-    }
-  }
 
-  #work .container {
-    text-align: left;
+@media only screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
   }
+}
+
+#work .container {
+  text-align: left;
+}
 }
 
 @media only screen and (min-width: 1440px) {
