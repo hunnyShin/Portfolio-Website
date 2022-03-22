@@ -275,7 +275,7 @@ footer {
 
   .profile img {
     max-width: 400px;
-    border: 10px;
+    padding: 20px;
   }
   .profile {
     text-align: center;
