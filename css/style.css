@@ -217,7 +217,9 @@ footer {
 .source-sans-pro {
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+.source-sans-pro-bold {
+  font-weight: bold;
+}
 .elejewel-mockup {
   display: flex;
   jestify-content: space-around;
