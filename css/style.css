@@ -281,7 +281,9 @@ footer {
     text-align: unset;
     padding: 20px 0 13px;
   }
-
+  body {
+    font-size: 18px;
+  }
   nav {
     width: auto;
     float: right;
@@ -350,7 +352,9 @@ footer {
     text-align: unset;
     padding: 20px 0 13px;
   }
-
+  body {
+    font-size: 20px;
+  }
   #work .container {
     text-align: left;
   }
@@ -366,6 +370,12 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+  nav {
+    margin-top: 10px;
+  }
+  body {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -374,4 +384,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+  body {
+    font-size: 30px;
+}
 }
