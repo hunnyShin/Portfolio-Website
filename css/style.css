@@ -151,6 +151,10 @@ nav a:active {
   text-transform: uppercase;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 #hero {
   background-color: #ffe4c4;
   padding: 20px 0;
@@ -217,9 +221,11 @@ footer {
 .source-sans-pro {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 .source-sans-pro-bold {
   font-weight: bold;
 }
+
 .elejewel-mockup {
   display: flex;
   jestify-content: space-around;
@@ -281,15 +287,37 @@ footer {
     text-align: unset;
     padding: 20px 0 13px;
   }
+
   body {
     font-size: 18px;
   }
+  main {
+    padding-top: 56px;
+  }
+
   nav {
-    width: auto;
+    display: inline-block;
+    width: 100%;
     float: right;
     margin-top: 4px;
   }
 
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+  .navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
   #hero span {
     display: block;
   }
@@ -352,9 +380,11 @@ footer {
     text-align: unset;
     padding: 20px 0 13px;
   }
+
   body {
     font-size: 20px;
   }
+
   #work .container {
     text-align: left;
   }
@@ -370,9 +400,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
   nav {
     margin-top: 10px;
   }
+
   body {
     font-size: 25px;
   }
@@ -384,7 +416,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
   body {
     font-size: 30px;
-}
+  }
 }
