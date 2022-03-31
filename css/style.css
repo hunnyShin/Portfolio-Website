@@ -109,7 +109,6 @@ a:active {
 
 header {
   background-color: #ffe4c4;
-  text-align: center;
   padding: 10px 0;
   position: fixed;
   border-bottom: 3px solid #4a4a4a;
@@ -123,7 +122,6 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
 }
 
 nav ul li {
@@ -302,6 +300,7 @@ footer {
     float: right;
     margin-top: 4px;
   }
+
 
   .navtoggle li:not(:last-child) {
     display: inline-block;
