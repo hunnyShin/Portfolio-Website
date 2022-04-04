@@ -1,11 +1,6 @@
-console.log("This is Julie. Nice to meet you!")
-
-var containers = $(".container");
-
 function menuToggle() {
-  console.log("work")
   var x = document.getElementById('myNavtoggle');
-  if (x.className === 'navtoggle') {
+  if (x.className === 'navtoggle' && $(window).width() < 640) {
     x.className += ' responsive';
   } else {
     x.className = 'navtoggle';

@@ -109,23 +109,55 @@ a:active {
 
 header {
   background-color: #ffe4c4;
-  padding: 10px 0;
+  padding: 10px 0 0;
   position: fixed;
   border-bottom: 3px solid #4a4a4a;
-  width: 100%
+  width: 100%;
+}
+
+#myNavtoggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 
 nav {
-  margin-top: 1em;
+  display: inline-block;
+  width: auto;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav a {
@@ -149,10 +181,6 @@ nav a:active {
   text-transform: uppercase;
 }
 
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
 #hero {
   background-color: #ffe4c4;
   padding: 20px 0;
@@ -173,7 +201,7 @@ nav a:active {
 }
 
 main {
-  padding-top: 131px;
+  padding-top: 90px;
 }
 
 footer {
@@ -281,17 +309,18 @@ footer {
 }
 
 /* for small screen */
-@media only screen and (max-width: 640px) {
-  #myNavtoggle {
-    display: flex;
-    justify-content: space-between;
-  }
-}
+@media only screen and (max-width: 640px) {}
 
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
+  }
+
+  #myNavtoggle {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
   }
 
   body {
@@ -302,11 +331,8 @@ footer {
     padding-top: 56px;
   }
 
-  nav {
+  nav ul li {
     display: inline-block;
-    width: 100%;
-    float: right;
-    margin-top: 4px;
   }
 
   .navtoggle li:not(:last-child) {
@@ -315,31 +341,6 @@ footer {
 
   .navtoggle li:last-child {
     display: none;
-  }
-
-  .navtoggle, .navtoggle.responsive {
-    position: relative;
-  }
-
-  .navtoggle li .icon {
-    position: absolute;
-    right: 0;
-    top: 2px;
-    font-size: 20px;
-  }
-
-  .navtoggle.responsive nav {
-    padding: 24px 0 0;
-  }
-
-  .navtoggle.responsive li {
-    display: block;
-    padding: 10px 0;
-    border-top: 1px solid rgba(255, 127, 80, 0.5);
-  }
-
-  .navtoggle.responsive li:last-child {
-    padding: 0 0 10px;
   }
 
   #hero span {
@@ -369,6 +370,21 @@ footer {
 
   #work .container {
     text-align: left;
+  }
+
+  #work h3 {
+    margin-top: 0;
+  }
+
+  #work .row {
+    display: flex;
+  }
+
+  #work [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   main {
