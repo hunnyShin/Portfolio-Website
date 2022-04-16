@@ -111,7 +111,8 @@ a:active {
 }
 
 .logo {
-  max-width: 70px;
+  max-width: 7em;
+  padding-left: 0.5em;
 }
 
 header {
