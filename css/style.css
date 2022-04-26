@@ -14,6 +14,7 @@ body {
 #work {
   padding: 15px 0;
 }
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -104,20 +105,20 @@ a:active {
   margin: 25px 0;
   /*25px top and bottom, 0 legt and right */
 }
- 
+
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
 
 .logo {
-  max-width: 7em;
-  padding-left: 0.5em;
+  max-width: 10em;
+  padding: 10px 0 0;
 }
 
 header {
   background-color: #C9B5FF;
-  padding: 10px 0 0;
+  padding: 15px 10px;
   position: fixed;
   border-bottom: 3px solid #4a4a4a;
   width: 100%;
@@ -139,7 +140,7 @@ header {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 12px;
+  top: 5px;
   font-size: 22px;
 }
 
@@ -208,7 +209,7 @@ nav a:active {
 }
 
 main {
-  padding-top: 75px;
+  padding-top: 74px;
 }
 
 footer {
@@ -315,9 +316,6 @@ footer {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-/* for small screen */
-@media only screen and (max-width: 640px) {}
-
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
@@ -328,6 +326,11 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+  }
+
+  .logo {
+    max-width: 11em;
+    padding-left: 0.5em;
   }
 
   body {
@@ -403,7 +406,7 @@ footer {
   }
 
   main {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   #hero {
@@ -444,6 +447,12 @@ footer {
     text-align: left;
   }
 
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .col-lg-6 {
     width: 50%
   }
@@ -454,25 +463,5 @@ footer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  nav {
-    margin-top: 10px;
-  }
-
-  body {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  body {
-    font-size: 20px;
   }
 }
