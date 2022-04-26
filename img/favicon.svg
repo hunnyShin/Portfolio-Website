@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group Copy</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-Copy">
-            <rect id="Rectangle" stroke="#000000" stroke-width="5" fill="#FFFFFF" x="2.5" y="2.5" width="145" height="145"></rect>
-            <text id="JS" font-family="SFProRounded-Regular, SF Pro Rounded" font-size="118" font-weight="normal" letter-spacing="-2.74831206" fill="#000000">
-                <tspan x="14.005148" y="117">JS</tspan>
+<svg width="92px" height="78px" viewBox="0 0 92 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🎨</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AppleColorEmoji, Apple Color Emoji" font-size="92" font-weight="normal" letter-spacing="-4.41569261">
+        <g id="Artboard" transform="translate(-29.000000, -36.000000)" fill="#000000">
+            <text id="🎨">
+                <tspan x="29" y="105">🎨</tspan>
             </text>
         </g>
     </g>

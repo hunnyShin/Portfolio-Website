@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="569px" height="112px" viewBox="0 0 569 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="787px" height="117px" viewBox="0 0 787 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Group</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="92" letter-spacing="-4.41569261">
-        <g id="Artboard" transform="translate(-12.000000, -19.000000)" fill="#000000">
-            <g id="Group" transform="translate(12.000000, 19.000000)">
-                <text id="Hyunhee" font-family="Inter-Regular_Bold, Inter" font-weight="bold">
-                    <tspan x="0" y="90">Hyunhee</tspan>
+        <g id="Artboard" transform="translate(-12.000000, -20.000000)" fill="#000000">
+            <g id="Group" transform="translate(12.000000, 20.000000)">
+                <text id="Hyunhee" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-weight="normal">
+                    <tspan x="0" y="89">Hyunhee</tspan>
                 </text>
                 <text id="Shin" font-family="Inter-Regular, Inter" font-weight="normal">
-                    <tspan x="397" y="89">Shin</tspan>
+                    <tspan x="335" y="89">Shin</tspan>
+                </text>
+                <text id="(Julie)" font-family="Inter-Regular_Bold, Inter" font-weight="bold">
+                    <tspan x="527" y="89">(Julie)</tspan>
                 </text>
             </g>
         </g>
