@@ -25,7 +25,7 @@
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
         <a href="index.html"><img class="logo" src="img/logo.svg" alt="main logo"></a>
-        <nav class="navigation">
+        <nav id="topmenu" class="navigation">
           <ul>
             <li><a href="#work">Work</a></li>
             <li><a href="about.html">About</a></li>
@@ -41,34 +41,33 @@
     <div id="hero">
       <div class="container">
         <h1>Hello. My name is Julie. <span>I am a UI designer.</span></h1>
-        <p id="work">
-          I am a good listener, and I love collaborating with people and enjoy accepting new things. If I write three words that indicate me, it can be “patient,” “effort,” and “faithful.”
+        <p>
+          I am a good listener, and I love collaborating with people and enjoy accepting new things.<br>If I write three words that indicate me, it can be “patient,” “effort,” and “faithful.”
         </p>
       </div>
     </div>
 
-    <div>
-      <div class="container">
+    <div id="work">
+      <div class="container" id="recentwork">
         <h2>Recent work</h2>
+        <div>
+          <picture >
+            <source srcset="img/elejewel/elejewel@1.png" media="(max-width:767px)">
+            <img id="recent-work-elejewel" src="img/elejewel/elejewel@2.png" alt="elejewel jewerly app">
+          </picture>
+        </div>
         <div class="row">
           <div class="col-md-6 col-lg-8 col-xl-4">
-            <picture>
-              <source srcset="img/elejewel/elejewel@1.png" media="(max-width:767px)">
-              <img src="img/elejewel/elejewel@2.png" alt="elejewel jewerly app">
-            </picture>
+            <h3>ELEJEWEL</h3>
           </div>
           <div class="col-md-6 col-lg-4 col-xl-8">
-            <h3>ELEJEWEL - Jewerly Store App</h3>
             <p>
-              Includes research through guiding principles and user flow in the last
-              immersion project with UI elements such as logos, colors, fonts, and
-              styling. The most completed work with remarkable low, mid, and high
-              fidelity came out.
+              A jewelry store app concept I created that buyers can purchase their desired jewelry only one click
             </p>
             <p>
               Sketch, Adove Photoshop, Fidelity, User Testing, UI Design
             </p>
-            <a href="project.html" class="button">Read more</a> 
+            <a href="project.html" class="button">Read more</a>
           </div>
         </div>
 
