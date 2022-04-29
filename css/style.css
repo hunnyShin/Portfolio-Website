@@ -117,6 +117,9 @@ a:active {
   margin: 0;
   /*25px top and bottom, 0 legt and right */
 }
+.email {
+  margin: 10px;
+}
 
 #work .row {
   padding-bottom: 25px;
