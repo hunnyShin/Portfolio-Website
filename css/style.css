@@ -14,7 +14,14 @@ body {
 #work {
   padding: 15px 0;
   text-align: center;
+}
 
+#recent-work-elejewel {
+  transition: box-shadow .3s;
+}
+
+#recent-work-elejewel:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 h1, h2, h3, h4 {
@@ -104,9 +111,10 @@ a:active {
 #recentwork {
   margin-top: 6em;
 }
+
 /* Layout Styling */
 .row {
-  margin: 25px 0;
+  margin: 0;
   /*25px top and bottom, 0 legt and right */
 }
 
@@ -199,6 +207,7 @@ nav a:active {
   display: inline-block;
   width: 100%
 }
+
 #hero-about {
   background-color: #DAD1FF;
   display: inline-block;
@@ -401,9 +410,11 @@ footer {
   #work .container {
     text-align: left;
   }
+
   #recentwork {
     margin-top: 5em;
   }
+
   #work h3 {
     margin-top: 0;
   }
@@ -411,9 +422,11 @@ footer {
   #work .row {
     display: flex;
   }
-#recent-work-elejewel {
-  margin-top: 1.5em;
-}
+
+  #recent-work-elejewel {
+    margin-top: 1.5em;
+  }
+
   #work [class*="col-"] {
     display: flex;
     flex-direction: column;
@@ -483,6 +496,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
   #recentwork {
     margin-top: 5em;
   }
