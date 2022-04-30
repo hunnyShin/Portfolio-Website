@@ -114,9 +114,10 @@ a:active {
 
 /* Layout Styling */
 .row {
-  margin: 0;
+  margin: 7em 0;
   /*25px top and bottom, 0 legt and right */
 }
+
 .email {
   margin: 10px;
 }
@@ -270,6 +271,7 @@ footer {
 
 .elejewel-color img {
   width: 25%;
+  padding: 0.5em;
 }
 
 .source-yumincho {
@@ -283,20 +285,24 @@ footer {
 .source-sans-pro-bold {
   font-weight: bold;
 }
+
 .elejewel-main {
   margin: 2em 0;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .elejewel-mockup {
   display: flex;
-  jestify-content: space-around;
-  margin: 0 0 1em;
+  justify-content: space-around;
+  margin: 7em 0;
+;
 }
 
-.elejewel-mockup img {
-  width: 50%;
+.elejewel-mockup img{
+  width: 45%;
+  padding: 1.5em;
 }
 
 @keyframes color-change {
@@ -345,6 +351,13 @@ footer {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+#elejewel-main {
+  background-color: #2C2C2C;
+  color: #ffffff;
+}
+.row {
+
+}
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
@@ -488,12 +501,14 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
   .elejewel-main {
     margin: 2em 0;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+
   #recentwork {
     margin-top: 5em;
   }
@@ -509,12 +524,14 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
   .elejewel-main {
     margin: 2em 0;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+
   #recentwork {
     margin-top: 5em;
   }
