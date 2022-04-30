@@ -112,7 +112,7 @@ a:active {
   margin-top: 6em;
 }
 
-/* Layout Styling */
+/* Margin in the project-html */
 .row {
   margin: 7em 0;
   /*25px top and bottom, 0 legt and right */
@@ -122,7 +122,7 @@ a:active {
   margin: 10px;
 }
 
-#work .row {
+.index-row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
@@ -297,10 +297,9 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: 7em 0;
-;
 }
 
-.elejewel-mockup img{
+.elejewel-mockup img {
   width: 45%;
   padding: 1.5em;
 }
@@ -355,9 +354,25 @@ footer {
   background-color: #2C2C2C;
   color: #ffffff;
 }
-.row {
 
+.index-row p {
+  margin: 0 0 1em 0;
 }
+
+.conclusion-box {
+  background-color: #000000;
+  border-radius: 25px;
+  padding: 3em;
+}
+
+.thankyou {
+  text-align: right;
+}
+
+.thankyou h2 {
+  padding: 1.5em;
+}
+
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
@@ -440,7 +455,7 @@ footer {
     margin-top: 0;
   }
 
-  #work .row {
+  .index-low {
     display: flex;
   }
 
@@ -475,7 +490,7 @@ footer {
     width: 80%;
   }
 
-  .row::after {
+  .index-row::after {
     content: "";
     clear: both;
     display: table;
