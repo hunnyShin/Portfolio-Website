@@ -361,6 +361,11 @@ footer {
 .ex-mainphoto {
   padding-top: 2em;
 }
+
+.krb-mainphoto {
+  padding-top: 2em;
+}
+
 .ex-overview {
   background-color: #7530FF;
   color: #ffffff;
@@ -369,6 +374,7 @@ footer {
   opacity: 90%;
   margin: 1em;
 }
+
 .ex-takeaways {
   background-color: #7530FF;
   color: #ffffff;
@@ -377,6 +383,7 @@ footer {
   opacity: 90%;
   margin: 1em;
 }
+
 .index-row p {
   margin: 0 0 1em 0;
 }
