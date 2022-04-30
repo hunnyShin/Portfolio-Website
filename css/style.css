@@ -33,6 +33,11 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 2.35em;
+  font-weight: 400;
+}
+
 h3 {
   font-size: 1.75em;
   font-weight: 400;
@@ -274,14 +279,6 @@ footer {
   padding: 0.5em;
 }
 
-.source-yumincho {
-  font-family: 'Yumincho', serif;
-}
-
-.source-sans-pro {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
 .source-sans-pro-bold {
   font-weight: bold;
 }
@@ -355,6 +352,31 @@ footer {
   color: #ffffff;
 }
 
+#ex-main {
+  background-color: #F6F6F6;
+  color: #000000;
+  padding-top: 4.5em;
+}
+
+.ex-mainphoto {
+  padding-top: 2em;
+}
+.ex-overview {
+  background-color: #7530FF;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 2em;
+  opacity: 90%;
+  margin: 1em;
+}
+.ex-takeaways {
+  background-color: #7530FF;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 2em;
+  opacity: 90%;
+  margin: 1em;
+}
 .index-row p {
   margin: 0 0 1em 0;
 }
@@ -371,6 +393,14 @@ footer {
 
 .thankyou h2 {
   padding: 1.5em;
+}
+
+#recent-work-ex {
+  transition: box-shadow .3s;
+}
+
+#recent-work-ex:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 @media only screen and (min-width: 640px) {
