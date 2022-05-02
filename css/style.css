@@ -78,6 +78,7 @@ a:active {
   border-bottom: 2px solid #241159;
   transition-duration: 0.2s;
   transition: 0.2s opacity;
+  margin-bottom: 2em;
 }
 
 .button:visited {
@@ -378,10 +379,6 @@ footer {
   margin: 1em;
 }
 
-.index-row p {
-  margin: 0 0 1em 0;
-}
-
 .conclusion-box {
   background-color: #000000;
   border-radius: 25px;
@@ -419,6 +416,12 @@ footer {
 #recent-work-krb:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
+
+/* text margin changing */
+.text-margin {
+  margin: 0;
+}
+
 
 @media only screen and (min-width: 640px) {
   header {
@@ -545,7 +548,7 @@ footer {
   }
 }
 .krb-space {
-  margin-bottom: 47px;
+  margin-bottom: 48px;
 }
 @media only screen and (min-width: 1024px) {
   header {
