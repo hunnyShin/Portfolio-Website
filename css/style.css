@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+#zindex{
+  z-index: 50;
+}
 body {
   background-color: white;
   font-family: 'Inter', sans-serif;
@@ -14,14 +16,6 @@ body {
 #work {
   padding: 15px 0;
   text-align: center;
-}
-
-#recent-work-elejewel {
-  transition: box-shadow .3s;
-}
-
-#recent-work-elejewel:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 h1, h2, h3, h4 {
@@ -402,11 +396,27 @@ footer {
   padding: 1.5em;
 }
 
+#recent-work-elejewel {
+  transition: box-shadow .3s;
+}
+
+#recent-work-elejewel:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
 #recent-work-ex {
   transition: box-shadow .3s;
 }
 
 #recent-work-ex:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+#recent-work-krb {
+  transition: box-shadow .3s;
+}
+
+#recent-work-krb:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
@@ -492,9 +502,7 @@ footer {
     margin-top: 0;
   }
 
-  .index-low {
-    display: flex;
-  }
+
 
   #recent-work-elejewel {
     margin-top: 1.5em;
@@ -505,7 +513,10 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
-
+#index-flex1 {
+  margin: 1em 0;
+  padding:
+}
   main {
     padding-top: 4.5em;
   }
@@ -533,7 +544,9 @@ footer {
     display: table;
   }
 }
-
+.krb-space {
+  margin-bottom: 47px;
+}
 @media only screen and (min-width: 1024px) {
   header {
     text-align: unset;

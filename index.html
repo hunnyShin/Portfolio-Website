@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="zindex">
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
         <a href="index.html"><img class="logo" src="img/logo.svg" alt="main logo"></a>
@@ -58,7 +58,7 @@
           </a>
         </div>
         <!-- first project -->
-        <div class="index-row">
+        <div class="index-elejewel">
           <div class="col-md-6 col-lg-8 col-xl-4">
             <h3>ELEJEWEL</h3>
           </div>
@@ -73,50 +73,56 @@
           </div>
         </div>
         <!-- second project -->
-        <div class="index-row">
+        <div id="index-flex1">
           <div>
-            <a href="project2.html">
-              <picture>
-                <img id="recent-work-ex" src="img/basic-ex/recent-work-ex.png" alt="exercise app">
-              </picture>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-8 col-xl-4">
-            <h3>Basic EX</h3>
-          </div>
-          <div class="col-md-6 col-lg-4 col-xl-8">
-            <p>
-              Basic EX is exercise programs for beginners. Learning easy exercises and diet recipes for health.
-            </p>
-            <p>
-              Sketch, Adove Photoshop, iOS & Android Design
-            </p>
-            <a href="project2.html" class="button">Read more</a>
-          </div>
-        </div>
-        <!-- third project -->
-        <div class="index-row">
-          <div>
-            <a href="project3.html">
-              <picture>
-                <img id="recent-work-krb" src="img/korean-rnb/index-krb.png" alt="recipe app">
-              </picture>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-8 col-xl-4">
-            <h3>Korean R&B</h3>
-          </div>
-          <div class="col-md-6 col-lg-4 col-xl-8">
-            <p>
-              Everything about Korean Food and Beverage Recipes
-            </p>
-            <p>
-              Sketch, Adove Photoshop, UX design, UI design
-            </p>
-            <a href="project3.html" class="button">Read more</a>
+            <div class="col-md-6 col-lg-8 col-xl-4">
+              <div>
+                <a href="project2.html">
+                  <picture>
+                    <img id="recent-work-ex" src="img/basic-ex/recent-work-ex.png" alt="exercise app">
+                  </picture>
+                </a>
+              </div>
+              <div class="">
+                <h3>Basic EX</h3>
+              </div>
+              <div class="">
+                <p>
+                  Basic EX is exercise programs for beginners. Learning easy exercises and diet recipes for health.
+                </p>
+                <p>
+                  Sketch, Adove Photoshop, iOS & Android Design
+                </p>
+                <a href="project2.html" class="button">Read more</a>
+              </div>
+            </div>
+
+            <!-- third project -->
+            <div class="col-md-6 col-lg-4 col-xl-8">
+              <div>
+                <a href="project3.html">
+                  <picture>
+                    <img id="recent-work-krb" src="img/korean-rnb/index-krb.png" alt="recipe app">
+                  </picture>
+                </a>
+              </div>
+              <div>
+                <h3>Korean R&B</h3>
+              </div>
+              <div>
+                <p class="krb-space">
+                  Everything about Korean Food and Beverage Recipes
+                </p>
+                <p>
+                  Sketch, Adove Photoshop, UX design, UI design
+                </p>
+                <a href="project3.html" class="button">Read more</a>
+              </div>
+            </div>
           </div>
         </div>
 
+        <!-- animation picture made with CareerFoundry -->
         <div class="index-row">
           <div class="col-md-6 col-lg-4 col-xl-8">
             <svg id="about-picture" xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" height="auto" viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1391,15 +1397,17 @@
                 </path>
               </g>
             </svg>
-          </div>
-          <div class="col-md-6 col-lg-4 col-xl-8">
-            <h3>CSS Animation</h3>
-            <p>
-              This is an example of a SVG image which is animated using keyframes.
-            </p>
+
+            <div>
+              <h3>CSS Animation</h3>
+              <p>
+                This is an example of a SVG image which is animated using keyframes.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </main>
 
