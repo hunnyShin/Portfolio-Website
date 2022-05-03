@@ -581,9 +581,6 @@ footer {
     margin-top: 5em;
   }
 
-  .col-lg-6 {
-    width: 50%
-  }
 }
 
 @media only screen and (min-width: 1440px) {
