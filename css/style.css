@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
-#zindex{
+
+#zindex {
   z-index: 50;
 }
+
 body {
   background-color: white;
   font-family: 'Inter', sans-serif;
@@ -123,7 +125,7 @@ a:active {
 }
 
 .index-row {
-  padding-bottom: 25px;
+  padding-bottom: 5em;
   border-bottom: 1px solid #4a4a4a;
 }
 
@@ -395,6 +397,7 @@ footer {
 
 #recent-work-elejewel {
   transition: box-shadow .3s;
+  margin-top: 4em;
 }
 
 #recent-work-elejewel:hover {
@@ -403,6 +406,7 @@ footer {
 
 #recent-work-ex {
   transition: box-shadow .3s;
+  margin-top: 4em;
 }
 
 #recent-work-ex:hover {
@@ -411,6 +415,7 @@ footer {
 
 #recent-work-krb {
   transition: box-shadow .3s;
+  margin-top: 4em;
 }
 
 #recent-work-krb:hover {
@@ -422,6 +427,16 @@ footer {
   margin: 0;
 }
 
+.animation-align {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#about-picture {
+  margin-top: 4em;
+}
 
 @media only screen and (min-width: 640px) {
   header {
@@ -505,21 +520,12 @@ footer {
     margin-top: 0;
   }
 
-
-
-  #recent-work-elejewel {
-    margin-top: 1.5em;
-  }
-
   #work [class*="col-"] {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-#index-flex1 {
-  margin: 1em 0;
-  padding:
-}
+
   main {
     padding-top: 4.5em;
   }
@@ -547,9 +553,11 @@ footer {
     display: table;
   }
 }
+
 .krb-space {
-  margin-bottom: 48px;
+  margin-bottom: 1em;
 }
+
 @media only screen and (min-width: 1024px) {
   header {
     text-align: unset;
@@ -580,7 +588,6 @@ footer {
   #recentwork {
     margin-top: 5em;
   }
-
 }
 
 @media only screen and (min-width: 1440px) {
