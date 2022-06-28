@@ -242,7 +242,9 @@ main {
 footer {
   text-align: center;
 }
-
+.prototyping {
+  align-items: center;
+}
 .social {
   display: flex;
   justify-content: space-between;
