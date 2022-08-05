@@ -43,6 +43,12 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+.main-myself {
+padding: 10px;
+border: 10px;
+text-align: center;
+
+}
 
 .profile {
   padding: 10px;
