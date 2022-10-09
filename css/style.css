@@ -43,15 +43,16 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-.main-myself {
-padding: 10px;
-border: 10px;
-text-align: center;
 
+.main-myself {
+  padding: 10px;
+  border: 10px;
+  text-align: center;
 }
 
 .profile {
   padding: 10px;
+  text-align: center;
 }
 
 img {
@@ -241,6 +242,14 @@ nav a:active {
   margin-top: 1em;
 }
 
+.textalign-middle {
+  text-align: center;
+}
+
+.padding-bottom {
+  padding-bottom: 3em;
+}
+
 main {
   padding-top: 74px;
 }
@@ -248,9 +257,11 @@ main {
 footer {
   text-align: center;
 }
+
 .prototyping {
   align-items: center;
 }
+
 .social {
   display: flex;
   justify-content: space-between;
@@ -516,6 +527,7 @@ footer {
   }
 
   .profile {
+    padding: 100px 0px;
     text-align: center;
   }
 
@@ -594,6 +606,16 @@ footer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .profile img {
+    max-width: 400px;
+    padding: 20px;
+  }
+
+  .profile {
+    padding: 150px 0px;
+    text-align: center;
   }
 
   #recentwork {
