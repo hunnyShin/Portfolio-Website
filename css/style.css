@@ -69,12 +69,12 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color: #5C38BB;
+  background-color: #424242;
   color: #ffffff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #241159;
+  border-bottom: 2px solid #212121;
   transition-duration: 0.2s;
   transition: 0.2s opacity;
   margin-bottom: 2em;
@@ -92,13 +92,13 @@ a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #5C38BB;
+  color: #424242;
   text-transform: uppercase;
-  border: 2px solid #5C38BB;
+  border: 2px solid #424242;
 }
 
 .button.contact:hover {
-  background-color: #5C38BB;
+  background-color: #424242;
   color: #ffffff;
 }
 
@@ -240,7 +240,7 @@ nav a:active {
   padding-top: 30px;
 }
 .about-main {
-  padding-top: 100px;
+  padding-top: 10em;
 }
 
 footer {
