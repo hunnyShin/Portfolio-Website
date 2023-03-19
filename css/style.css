@@ -20,15 +20,6 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4 {
-  line-height: 1.4;
-}
-
-h1 {
-  font-size: 2.5em;
-  font-weight: 700;
-}
-
 h2 {
   font-size: 2.35em;
   font-weight: 400;
@@ -44,10 +35,9 @@ h4 {
   font-weight: 400;
 }
 
-.main-myself {
-  padding: 10px;
+.main-myself {#F7F9F9
   border: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .profile {
@@ -142,10 +132,10 @@ a:active {
 }
 
 header {
-  background-color: #C9B5FF;
-  padding: 20px 0 15px;
+  background-color: #FBFCFC;
+  padding: 20px 20px 0;
   position: fixed;
-  border-bottom: 2px solid #4a4a4a;
+  border-bottom: 2px solid #FBFCFC;
   width: 100%;
 }
 
@@ -215,7 +205,7 @@ nav a:active {
 }
 
 #hero {
-  background-color: #DAD1FF;
+  background-color: #FBFCFC;
   padding: 4em 0;
   display: inline-block;
   width: 100%
@@ -232,14 +222,10 @@ nav a:active {
 
 #hero h1 {
   margin: 0;
-  padding: 0.67em 0;
-  text-align: center;
-}
-
-#hero h1 span {
-  display: block;
-  font-size: 60%;
-  margin-top: 1em;
+  padding: 3em 0 0 0;
+  text-align: left;
+  font-size: 2.75em;
+  font-weight: 700;
 }
 
 .textalign-middle {
@@ -250,8 +236,11 @@ nav a:active {
   padding-bottom: 3em;
 }
 
-main {
-  padding-top: 60px;
+.index-main {
+  padding-top: 30px;
+}
+.about-main {
+  padding-top: 100px;
 }
 
 footer {
@@ -503,10 +492,6 @@ footer {
 
   .navtoggle, .navtoggle.responsive {
     position: relative;
-  }
-
-  #hero span {
-    display: block;
   }
 
   .col-md-4 {
