@@ -35,8 +35,8 @@ h4 {
   font-weight: 400;
 }
 
-.main-myself {#F7F9F9
-  border: 10px;
+.main-myself {
+  #F7F9F9 border: 10px;
   text-align: left;
 }
 
@@ -239,6 +239,7 @@ nav a:active {
 .index-main {
   padding-top: 30px;
 }
+
 .about-main {
   padding-top: 10em;
 }
